@@ -1,0 +1,49 @@
+h1, h2, h3, p, li ,ol{
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 20px;
+color: black
+
+}
+
+body {
+
+  background-color: rgb(228, 0, 43);
+}
+img {
+    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1,h2,h3,p{
+  text-align: center;
+}
+a{
+font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+color: rgb(0, 0, 0);
+margin-right: 20px;
+}
+tr,th,td{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+border:1px solid white
+
+}
+.tr,th,td{
+padding: 8px;
+text-align:center ;
+
+}
+h5{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: black;
+}
+
+
+table tr:nth-child(even) {
+  background-color:rgb(201, 185, 185); 
+}
+table:nth-child(odd) {
+  background-color: rgb(228, 0, 42); }
